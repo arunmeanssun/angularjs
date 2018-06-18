@@ -1,0 +1,122 @@
+body {
+  font-family: sans-serif;
+}
+
+.c-blue {
+  color: #369;
+}
+
+.h1 {    
+  font-size: 28px;
+  line-height: 28px;
+  margin: 10px 0px;
+}
+
+.h3 {
+  font-size: 22px;
+  line-height: 22px;
+  margin: 10px 0px;
+}
+
+.p {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px; 
+  color: #545454;
+}
+
+.list_block, .list_inline {
+  padding: 0px;
+  margin: 0px;
+}
+
+.list_item { 
+  margin: 0px;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.list_inline > .list_item { 
+  float: left;
+  margin-right: 5px;
+  padding: 5px 10px 5px 5px;
+  border-right: 1px solid #d6d6d6;
+}
+
+.list_inline > .list_item:last-child {
+  border-right: 0px;
+}
+
+.btn, .btn-rnd {
+  padding: 8px 15px;
+  font-size: 14px;
+  line-height: 14px;
+  border: 0px;
+  background-color: #369;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn-rnd{
+  padding: 0px; 
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px; 
+}
+
+.mrg-y-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mrg-x-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mrg-bt-5 {
+  margin-bottom: 5px;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.wd-100pt {
+  width: 100% !important;
+}
+
+.wd-120{
+  width: 120px;
+}
+
+.wd-150{
+  width: 150px;
+}
+
+.ht-250 {
+  height: 250px;
+}
+
+.scroll-y {
+  overflow-y: auto;
+}
+
+.brd{
+  border: 1px solid #d6d6d6;
+}
+
+.bld {
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+}
